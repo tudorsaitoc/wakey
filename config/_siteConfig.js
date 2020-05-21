@@ -9,8 +9,8 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Awake',
-  tagline: 'A Nuxt.js Theme for Netlify CMS',
+  siteName: 'Wakey',
+  tagline: 'Public web property for my writings and projects',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
@@ -29,7 +29,8 @@ export default {
     {
       name: 'Categories',
       link: '/categories'
-    },
+    /* 
+     },
     {
       name: 'Github Repo',
       link: 'https://github.com/danielkellyio/awake-template',
@@ -39,6 +40,7 @@ export default {
       name: 'Awake+ Premium',
       link: 'https://awake-premium-lp.netlify.com/',
       target: '_blank'
+    */
     }
   ],
   hero: {
@@ -53,7 +55,7 @@ export default {
 
   // Card Layout
   cards: {
-    imageDimensions: '2x1', // Options: 1x1, 5x4, 4x3, 3x2, 5x3, 16x9, 2x1, 3x1, 4x5, 3x4, 2x3, 3x5, 9x16
+    imageDimensions: '1x1', // Options: 1x1, 5x4, 4x3, 3x2, 5x3, 16x9, 2x1, 3x1, 4x5, 3x4, 2x3, 3x5, 9x16
     theme: 'boxes' // Options: boxes, grid, image-grid
   },
 
